@@ -289,4 +289,28 @@ nav{
 .desktop-second{
     display: none;
 }
+/* causal backpack */
+.causal-backpack-container{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: auto;
+}
+.causal-backpack-title h1{
+    text-align: center;
+}
+.causal-backpack-card-container{
+    gap: 24px;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+.causal-backpack-card{
+    width: 343px;
+    height: auto;
+}
+.causal-backpack-card-image{
+    width: 304px;
+    padding: 30px 20px 31px 18px;
+}
+
 }
