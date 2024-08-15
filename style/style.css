@@ -117,3 +117,72 @@ nav{
     top: 43px ;
     left: 14px;
 }
+
+
+
+
+
+
+/* responsiveness starts here */
+
+@media screen and (max-width:576px){
+    .full-container{
+        max-width: 576px;
+        margin: 0 auto;
+        padding: 27px 20px 76px 20px;
+        border: 2px solid rgb(33, 160, 1);
+        }
+/* header style */
+.header-container{
+    height: auto;
+}
+.nav-left img{
+    width: 200px;
+    height: 30px;
+}
+nav{
+    margin-bottom: 52px;
+}
+.nav-links{
+    display: none;
+}
+.hamburger{
+    display: block;
+}
+/* banner */
+.banner-container{
+    flex-direction: column;
+    gap: 42px;
+}
+.banner-text-container h1{
+    font-size: 4.75rem;
+    margin-top: 0px;
+    letter-spacing: 1px;
+}
+.banner-text-container p br{
+    display: none;
+}
+.btn-primary p{
+    color: rgb(255, 255, 255);
+}
+.image-parent{
+    width: 100%;
+    height: 275px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-image-container{
+    width: 275px;
+    height: 100%;
+}
+.banner-image-container .backpack-1{
+    width:96%;
+    height: 94%;
+    top: 10px;
+    left: 5px;
+}
+
+.desktop-second{
+    display: none;
+}
