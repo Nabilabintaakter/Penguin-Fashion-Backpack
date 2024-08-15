@@ -166,7 +166,62 @@ nav{
     width: 100%;
     height: 100%;
 }
+/* causal backpack styles */
 
+.causal-backpack-container{
+    height: 709px;
+}
+.causal-backpack-title h1{
+    color: rgb(54, 57, 88);
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-bottom: 31px;
+}
+.causal-backpack-card-container{
+    justify-content: space-between;
+}
+.causal-backpack-card{
+    width: 370px;
+    height: 550px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.05);
+    background: rgb(255, 255, 255);
+    padding: 18px 18px 23px 18px;
+}
+.causal-backpack-card-image{
+    width: 334px;
+    height: 327px;
+    border-radius: 20px;
+    background: rgb(241, 241, 241);
+    padding: 18px 34px 43px 34px;
+    margin-bottom: 17px;
+}
+.causal-backpack-card-image img{
+    width: 266px;
+    height: 266px;
+    border: 2px dashed gray;
+
+}
+.causal-backpack-card-title{
+    margin-bottom: 13px;
+}
+.causal-backpack-price{
+    margin-top: 13px;
+    justify-content: space-between;
+    align-items: center;
+}
+.causal-backpack-price h3{
+    color: rgb(118, 194, 126);
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.mobile-footer{
+    display: none;
+}
 
 
 
